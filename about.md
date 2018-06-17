@@ -3,16 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is Karmanya Aggarwal, I'm currently a developer at Gramener in Hyderabad, India. For most things my language of choice is Python.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This blog is primarily intended to chronicle what I learn about machine learning, my experiments with data visualization in my downtime and various side projects that get involved in.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Most things I post here will have code samples on my [github](https://github.com/calmdownkarm)

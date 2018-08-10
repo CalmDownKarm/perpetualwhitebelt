@@ -5,6 +5,11 @@ draft: true
 layout: post
 categories: python, datascience, word2vec, clustering
 ---
+# Todo
+ - Insert quick note about word2vec and how it works
+ - Evaluate lda2vec, can you build your own version using fasttext vectors since 45% of the words in your text are outside the word2vec trained vocabulary?
+ - If not, can you use the underlying idea in some way? (essentially using LDA to convert wordvectors into concept/sentence vectors)
+ - gensim has a doc2vec which might do a quick and dirty clustering for me. 
 
 This is mostly placeholder, since this project isn't complete yet, however - 
 The rough outline of how this works so far

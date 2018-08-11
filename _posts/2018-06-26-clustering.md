@@ -4,6 +4,7 @@ date: 2018-06-26
 draft: true
 layout: post
 categories: python, datascience, word2vec, clustering
+comments: true
 ---
 # Todo
  - Insert quick note about word2vec and how it works

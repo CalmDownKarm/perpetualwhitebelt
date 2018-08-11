@@ -2,6 +2,7 @@
 layout: page
 title: Text Classification Notes
 permalink: /text-classification-notes/
+comments: true
 ---
 
 ##### This page is primarily intended to document my notes about Text Classification as I learn about it

@@ -40,6 +40,6 @@ I add 2 lines to my `~/.profile` file in the server.
 conda activate fastai && cd ~/fastai
 jupyter notebook
 ```
-What these do simple activate the conda environment, navigate to the directory where I keep all my notebooks and run jupyter from that directory. I started doing this after I noticed the lines that conda inserts into your `bashrc` file to explicitly remind you that you always have the base environment activated when you open a terminal and do python-y things. The reason this is in `.profile` and not `.bashrc` is that `bashrc` will cause the commands to run every time you open a terminal as opposed .profile or bash_profile which will run every time I log into the server.
+What these do simple activate the conda environment, navigate to the directory where I keep all my notebooks and run jupyter from that directory. I started doing this after I noticed the lines that conda inserts into your `bashrc` file to explicitly remind you that you always have the base environment activated when you open a terminal and do python-y things. The reason this is in `.profile` and not `.bashrc` is that `bashrc` will cause the commands to run every time you open a terminal as opposed `.profile` or `.bash_profile` which will run every time I log into the server.
 
 This setup isn't permanent, in that I'll eventually move towards putting things into a docker image, since I've been on a docker kick after I saw jesse frazelle's [really cool talk](https://www.youtube.com/watch?v=cYsVvV1aVss), but yeah. It works well enough for now.

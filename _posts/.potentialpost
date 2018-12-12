@@ -1,0 +1,10 @@
+- Sqlalchemy and db migrations
+- Building Data Apps with Gramex
+- MLaas API
+- GANs and text
+- Self Supervised Learning
+- Text analysis of a popular book like the wheel of time? Harry Potter?
+- Linear Regression Label Encoding vs One Hot Encoding across many different datasets and how it reacts. 
+
+
+shuf -zn8 -e *.jpg | xargs -0 cp -vt target/

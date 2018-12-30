@@ -19,10 +19,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Python, Machine Learning, Brazilian Jiu Jitsu and General Dorkiness
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://calmdownkarm.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: Karmanya Aggarwal
 twitter_username: karmanya
 github_username:  calmdownkarm
 linkedin_username: calmdownkarm
 permalink: /:year/:title
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+
+
 
 # Build settings
 markdown: kramdown

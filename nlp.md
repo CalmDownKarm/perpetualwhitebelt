@@ -11,6 +11,7 @@ comments: true
 - [Word2Vec](./)
 - [LDA](./)
 - [Hindi Dependency Parsing](./)
+- [CNNs for NLP](/2018/yoon-kim)
 
 ## Useful External Links
 - [indicnlp](http://indicnlp.org/)

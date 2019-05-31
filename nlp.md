@@ -8,7 +8,7 @@ comments: true
 # This page is primarily intended to document my notes about NLP, and be an aggregator of links that I'd like to remember.
 
 ## My Blog Posts
-- [Word2Vec](./)
+- [Word2Vec](./2019/word2vec)
 - [LDA](./)
 - [Hindi Dependency Parsing](./)
 - [CNNs for NLP](/2018/yoon-kim)

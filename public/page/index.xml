@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Perpetual White Belt</title>
-    <link>http://www.example.com/page/</link>
+    <link>https://www.calmdownkarm.com/page/</link>
     <description>Recent content in Pages on Perpetual White Belt</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 28 Sep 2017 08:00:00 +0600</lastBuildDate>
     
-	<atom:link href="http://www.example.com/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.calmdownkarm.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NLP</title>
-      <link>http://www.example.com/nlp/</link>
+      <link>https://www.calmdownkarm.com/nlp/</link>
       <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
       
-      <guid>http://www.example.com/nlp/</guid>
+      <guid>https://www.calmdownkarm.com/nlp/</guid>
       <description>This page is primarily intended to document my notes about NLP, and be an aggregator of links that I&#39;d like to remember.
 My Blog Posts  CNNs for NLP  Useful External Links  indicnlp and inltk CS224n Deep Learning for NLP by Christopher Manning - Currently going through this, really amazing course, enjoying learning some of the math going on behind the scene Distill&#39;s post on Memorization in RNNs and LSTMs, their post on Attention - Distill is indubitably the gold standard in ml explanations today.</description>
     </item>

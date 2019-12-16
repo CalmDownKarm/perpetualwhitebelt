@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configuration on Perpetual White Belt</title>
-    <link>http://www.example.com/tags/config/</link>
+    <link>https://www.calmdownkarm.com/tags/config/</link>
     <description>Recent content in Configuration on Perpetual White Belt</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 09:00:00 +0600</lastBuildDate>
     
-	<atom:link href="http://www.example.com/tags/config/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.calmdownkarm.com/tags/config/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Comments Support</title>
-      <link>http://www.example.com/personal/comments-support/</link>
+      <link>https://www.calmdownkarm.com/personal/comments-support/</link>
       <pubDate>Thu, 29 Mar 2018 09:00:00 +0600</pubDate>
       
-      <guid>http://www.example.com/personal/comments-support/</guid>
+      <guid>https://www.calmdownkarm.com/personal/comments-support/</guid>
       <description>Minimo has support for comments baked into it.
 Enable/Disable Comments Globally For enabling or disabling comments globally, check the following setting in your config.toml file:
 [params.comments] enable = false  params.comments [Map]:  enable [Boolean]: Enable/Disable comments globally    For Specific Posts The global .Site.Params.comments.enable setting can be overridden for specific posts in their content&#39;s frontmatter with this option:

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.example.com/</loc>
+    <lastmod>2019-07-12T23:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/</loc>
+    <lastmod>2019-06-11T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/nlp/</loc>
+    <lastmod>2017-09-28T08:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/</loc>
+    <lastmod>2019-07-12T23:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/text-lessons/</loc>
+    <lastmod>2019-06-11T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/</loc>
+    <lastmod>2019-07-12T23:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/technical/</loc>
+    <lastmod>2019-06-11T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/personal/</loc>
+    <lastmod>2019-06-03T09:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/splat/</loc>
+    <lastmod>2019-06-03T09:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/ml-not-math/</loc>
+    <lastmod>2019-05-31T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/data-deserts/</loc>
+    <lastmod>2019-04-16T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/migrations/</loc>
+    <lastmod>2019-03-11T09:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/lazy-callbacks/</loc>
+    <lastmod>2018-12-30T09:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/skepticism/</loc>
+    <lastmod>2018-12-04T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/twitterbot/</loc>
+    <lastmod>2018-10-16T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/ssh-config/</loc>
+    <lastmod>2018-09-16T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/technical/yoon-kim/</loc>
+    <lastmod>2018-08-10T09:00:00+06:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/change/</loc>
+    <lastmod>2018-05-12T09:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/personal/comments-support/</loc>
+    <lastmod>2019-07-12T23:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/config/</loc>
+    <lastmod>2019-07-12T23:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/page/</loc>
+    <lastmod>2017-09-28T08:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/og/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Perpetual White Belt</title>
+    <link>http://www.example.com/personal/</link>
+    <description>Recent content in Personal on Perpetual White Belt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Jun 2019 09:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Splat</title>
+      <link>http://www.example.com/personal/splat/</link>
+      <pubDate>Mon, 03 Jun 2019 09:00:00 +0600</pubDate>
+      
+      <guid>http://www.example.com/personal/splat/</guid>
+      <description>Picture the idyllic, perfect day. Warm, but not overly so. Sunny, but not enough to be oppressive.
+Breathe.
+Picture the lush, beautiful green grass slowly rushing towards you as a stranger yells the phrase FLARE FLARE FLARE into your ear. In your mind, some remnant of a Michael Schumacher interview is telling you to relax your body because anything kept braced will break.You should be panicking, but strangely, you&#39;re extremely calm.</description>
+    </item>
+    
+    <item>
+      <title>Migrations</title>
+      <link>http://www.example.com/personal/migrations/</link>
+      <pubDate>Mon, 11 Mar 2019 09:00:00 +0600</pubDate>
+      
+      <guid>http://www.example.com/personal/migrations/</guid>
+      <description>For the second time in two years now, I&#39;ve decamped and moved cities. Unexpectedly, there&#39;s a fair amount of culture shock. In the past year I&#39;ve gotten accustomed to being in a very quiet city and Delhi is certainly not that. Plus I&#39;ve had relatives over, other relatives passing away and social obligations that I can&#39;t postpone, so things have been fairly busy; a far cry from how introverted I&#39;d become in Hyderabad.</description>
+    </item>
+    
+    <item>
+      <title>Lazy Callbacks</title>
+      <link>http://www.example.com/personal/lazy-callbacks/</link>
+      <pubDate>Sun, 30 Dec 2018 09:00:00 +0600</pubDate>
+      
+      <guid>http://www.example.com/personal/lazy-callbacks/</guid>
+      <description>Around this time last year, I had a few goals in mind for this year. However, I didn&#39;t exactly write them down - and as most of my friends will attest, my memory isn&#39;t the best, so I&#39;m kinda winging it.
+  Jiu Jitsu - My biggest goal at the start of the year, was to get all the weird shit with my head sorted out so I could go back to doing jiu jitsu.</description>
+    </item>
+    
+    <item>
+      <title>Change</title>
+      <link>http://www.example.com/personal/change/</link>
+      <pubDate>Sat, 12 May 2018 09:00:00 +0600</pubDate>
+      
+      <guid>http://www.example.com/personal/change/</guid>
+      <description>Four years ago, I sat behind Engineering Hall on campus at the University of Illinois and the enormity of my fuck-up struck for the perhaps the first time. Over the course of a long year and a half I had made a series of bad decisions that ended up in my dropping out of one the best ranked engineering programs in the world, returning to India and starting all over.</description>
+    </item>
+    
+    <item>
+      <title>Comments Support</title>
+      <link>http://www.example.com/personal/comments-support/</link>
+      <pubDate>Thu, 29 Mar 2018 09:00:00 +0600</pubDate>
+      
+      <guid>http://www.example.com/personal/comments-support/</guid>
+      <description>Minimo has support for comments baked into it.
+Enable/Disable Comments Globally For enabling or disabling comments globally, check the following setting in your config.toml file:
+[params.comments] enable = false  params.comments [Map]:  enable [Boolean]: Enable/Disable comments globally    For Specific Posts The global .Site.Params.comments.enable setting can be overridden for specific posts in their content&#39;s frontmatter with this option:
+--- comments: true ---  comments [Boolean]: Enable/Disable comments for specific posts  Of course, you&#39;ll also need to setup a comment system ( Disqus or Staticman ).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang='en'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Machine Learning is firmly grounded in math - but why does it never feel like that day to day?. When I sit down to solve a math problem, not only is there a definitive answer, but more often than not there&#39;s an ideal way to approach the question. This ideal way never changes. When I sit down to solve an ML problem on the other hand, I always have to go through the same steps-'>
+<meta name='theme-color' content='#ffcd00'>
+
+<meta property='og:title' content='Machine Learning is NOT Math • Perpetual White Belt'>
+<meta property='og:description' content='Machine Learning is firmly grounded in math - but why does it never feel like that day to day?. When I sit down to solve a math problem, not only is there a definitive answer, but more often than not there&#39;s an ideal way to approach the question. This ideal way never changes. When I sit down to solve an ML problem on the other hand, I always have to go through the same steps-'>
+<meta property='og:url' content='http://www.example.com/technical/ml-not-math/'>
+<meta property='og:site_name' content='Perpetual White Belt'>
+<meta property='og:type' content='article'><meta property='article:section' content='Technical'><meta property='article:tag' content='Technical'><meta property='article:published_time' content='2019-05-31T09:00:00&#43;06:30'/><meta property='article:modified_time' content='2019-05-31T09:00:00&#43;06:30'/><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.61.0" />
+
+  <title>Machine Learning is NOT Math • Perpetual White Belt</title>
+  <link rel='canonical' href='http://www.example.com/technical/ml-not-math/'>
+  
+  
+  <link rel='icon' href='/images/something.ico'>
+<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:#ffcd00;}
+</style>
+
+  
+
+</head>
+<body class='page type-Technical'>
+
+  <div class='site'><a class='screen-reader-text' href='#content'>Skip to Content</a><div class='main'><nav id='main-menu' class='menu main-menu' aria-label='Main Menu'>
+  <div class='container'>
+    
+    <ul><li class='item'>
+        <a href='/'>Home</a>
+      </li><li class='item'>
+        <a href='/technical/'>technical</a>
+      </li><li class='item'>
+        <a href='/nlp/'>NLP</a>
+      </li><li class='item'>
+        <a href='/personal/'>personal</a>
+      </li></ul>
+  </div>
+</nav><div class='header-widgets'>
+        <div class='container'></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Perpetual White Belt</p><p class='desc site-desc'>Machine Learning, Data Visualization and Brazilian Jiu Jitsu</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='en' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>Machine Learning is NOT Math</h1>
+      
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+<span class='screen-reader-text'>Posted on </span>
+  <time class='entry-date' datetime='2019-05-31T09:00:00&#43;06:30'>2019, May 31</time>
+</span>
+
+  
+  
+<span class='reading-time'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+  
+</svg>
+4 mins read
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  <p>Machine Learning is firmly grounded in math - but why does it never feel like that day to day?. When I sit down to solve a math problem, not only is there a definitive answer, but more often than not there's an ideal way to approach the question. This ideal way never changes. When I sit down to solve an ML problem on the other hand, I always have to go through the same steps-</p>
+<ul>
+<li>Research to see what other people have done in the same problem,</li>
+<li>Collect a list of 3-4 approaches,</li>
+<li>try them all. Have none of them work well,</li>
+<li>Repeat with different approaches until something sticks.</li>
+</ul>
+<p>The same problem will often have a whole host of different solutions and I have really no way to determine which to pick.
+For example, if you look at the <a href="https://github.com/keon/awesome-nlp#text-embeddings">awesome nlp repository</a> you'll notice a thumb rule that says <code>fasttext &gt; glove &gt; word2vec</code>. On a surface level, I get that fasttext has subword information, so I won't need to worry about out of vocabulary words, because even if that word itself doesn't exist, the sequence of characters that make up that word will, and we'll be able to construct non random vectors anyway. Sounds great, but what if I'm using a library like <a href="https://github.com/plasticityai/magnitude">pymagnitude</a> which solves the out of vocabulary problem anyway? does the thumb rule still hold true? The only way I can answer that question reliably is if I knew why that thumb rule exists, and there's always a possibility that even the author doesn't know, it's just something anecdotal from their day to day experiments.</p>
+<p>Rachael Tatman tweeted this the other day -</p>
+<!-- raw HTML omitted -->
+<p>What struck me is that each of the replies are different. Obviously if someone recommends LDA and UMAP over TF-IDF and spectral clustering it's because it worked better in their particular use case. Which leads me to think that even small changes in usecase can cause large variations in performance. What works well on twitter data may not be so good on reddit data. What's worse is that having a mathematical understanding of how the method works doesn't solve this problem either - just because I understand SVD and Matrix Factorization, I have really no way to tell LDA tends to work better on longer bodies of text.</p>
+<p>Because of stuff like this, I find myself having to go through this benchmarking process every time I start a new problem and that feels like a huge waste of time. Things get murkier when we're dealing with unsupervised techniques, because all of a sudden we no longer have clear cut metrics for performance and even on the same dataset, there are very few objective measures of how well a model performs. What this ends up meaning is that machine learning just isn't like math, and we shouldn't obsess over the math - because mathematical intuition may not necessarily bring us any closer to developing a sense of model performance. The model itself sometimes helps - understanding how random forests approaches a continous variable definitely helps me create rules of thumb, but at least in NLP things aren't always that obvious. Perhaps that's why people like Jeremy Howard call themselves machine learning practitioners - because the only thing that brings us closer to an intuition is to try a bunch of things until they work and then remember what we tried. In the past, I've tried to keep tabs in a physical notebook about some features from the dataset (lengths of sentences, distributions of classes, where the data was from, how it was collected etc) and this somewhat helps, because it'll give me directions in which to start my search from, but inevitably I'll end up running through a bunch of things until I'm satisfied.</p>
+<p>All I can say is I'm glad libraries like scikit-learn and pytorch exist that can make this process really simple and fast.</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='tags'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/technical/'>Technical</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/technical/data-deserts/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader-text'>Previous post: </span>डेटा डेजर्ट</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/technical/text-lessons/'>
+        <span class='screen-reader-text'>Next post: </span>Lessons from a weekend of failing to handle a non-trivial amount of text<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
+    </div></div>
+</nav>
+
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label='Social Menu'>
+    <ul><li>
+        <a href='https://github.com/calmdownkarm' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/karmanya' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Twitter account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:karmanyaaggarwal@gmail.com' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://linkedin.com/in/calmdownkarm' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Linkedin account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+  <rect x="2" y="9" width="4" height="12"/>
+  <circle cx="4" cy="4" r="2"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='https://scholar.google.com/citations?user=A0d2Ji8AAAAJ' target='_blank' rel='noopener'>
+          <span class='screen-reader-text'>Open Google_scholar account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21.328 2.002v9.2M8.695 7.85c.014-.787-.11-2.236.28-2.89.623-1.045.856-1.39 1.797-1.989 1.953-.988 4.296.692 4.296.692.803.564 1.672 2.1 1.672 2.1l1.368-1.824-5.444-1.754-3.515 1.34L6.08 7.681m9.109 3.42s.65-.633 1.168-1.085c.461-.402.516-.714.6-.914.18-.426.268-.909.268-1.446 0-.7-.131-1.274-.388-1.735-.031-.053 0 0-.097-.157l4.588-3.762H10.32L3.672 7.85l5.023-.024c.23 1.237.619 1.575 1.019 2.222.744.719 1.13 1.194 2.215 1.194.254 0 2.6-.057 2.842-.09 0 0 .546 1.199-.133 1.71-.41.31.576 1.304.576 1.304s-5.577.831-6.523 1.427a4.13 4.13 0 0 0-1.306 1.277 3.034 3.034 0 0 0-.493 1.665c0 .502.106.955.32 1.357.214.403.493.733.84.99.345.258.744.473 1.194.649.45.174.896.297 1.342.367a8.348 8.348 0 0 0 3.41-.166 7.754 7.754 0 0 0 1.964-.807 4.28 4.28 0 0 0 1.49-1.443c.38-.609.57-1.292.57-2.049 0-.574-.116-1.096-.347-1.57a3.755 3.755 0 0 0-.847-1.164c-.335-.302-2.19-1.837-2.19-1.837"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><div class='copyright'>
+  <p>Minimo Theme &copy; 2017-2019 MunifTanjim </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="/assets/js/"</script>
+
+<script src='/assets/js/main.67d669ac.js'></script><script src='/js/custom.js'></script>
+
+</body>
+
+</html>
+

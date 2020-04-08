@@ -11,7 +11,7 @@ This page is primarily intended to document my notes about NLP, and be an aggreg
 <!--- [Word2Vec](./2019/word2vec) -->
 <!--- [LDA](./) -->
 <!--- [Hindi Dependency Parsing](/) -->
-- [CNNs for NLP](/technical/yoon-kim/)
+- [CNNs for NLP using fastai](/technical/sentence-cnns-fast-ai/)
 
 ## Useful External Links
 - [indicnlp](http://indicnlp.org/) and [inltk](https://github.com/goru001/inltk)

@@ -2,3 +2,7 @@
 	path = git
 	url = git@github.com:calmdownkarm/calmdownkarm.github.io
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:CalmDownKarm/CalmDownKarm.github.io.git
+	branch = master

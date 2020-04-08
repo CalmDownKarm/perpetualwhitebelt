@@ -12,6 +12,8 @@ I've also been working with the Delhi Government to create some [good governance
 
 This is my corner of the internet, and will essentially host a bunch of random things I think about, and occasionally some technical things as well.
 
+Follow the links in the menu - most of the technical stuff revolves around software, information extraction and machine learning. Don't take the Personal stuff too seriously - I write to rant.
+
 The title of this website reflects my progress in Brazilian Jiu Jitsu - where I'm the only person I know that needed to get knee surgery before I got a blue belt. I go by calmdownkarm on most platforms. Feel free to email me if you want to chat about NLP or social media.
 
 Shoutout to [Brady Salz](bradysalz.com) from whom I'm stealing most of this website
